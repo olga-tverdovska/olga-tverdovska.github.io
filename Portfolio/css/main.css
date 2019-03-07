@@ -1,0 +1,512 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+    padding: 0;
+}
+.logo{
+    float: left;
+    margin: 0;
+    width: fit-content;
+}
+.mobile{
+    display: none;
+}
+#logoone{
+    height: 40px;
+}
+#menu{
+    height: 40px;
+    padding: 38px 0;
+}
+#menu ul{
+    margin: 0;
+    float: right;
+    padding-inline-start: 0px;
+    padding: 20px 0;
+}
+#menu li{
+    display: inline;
+    padding-left: 35px;
+}
+#menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.7;
+    font-weight: 400;
+}
+.Portfolio{
+    background: #f6f6f6;
+    height: fit-content;
+    display: block;
+
+}
+#more{
+ background: #f6f6f6;
+ height: 30px;
+ margin: 0 auto;
+ display: block;
+ padding: 0;
+ padding-top: 130px;
+ border: 0;
+ opacity: 0.3;
+ direction: unset;
+ outline: none;
+}
+#more img{
+    height: 30px;
+}
+#navigation{
+    display: none;
+    width: 100%;
+}
+#navigation ul{
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-inline-start: 0px;
+    width: max-content;
+}
+#navigation li{
+    display: inline;
+    padding-left: 38px;
+
+}
+#navigation li a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.7;
+    font-weight: 400;
+}
+.foto{
+    padding-top: 70px;
+    margin-bottom: 110px;
+}
+tr{
+    display: block;
+    height: max-content;
+}
+.item{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 367px;
+    width: 367px;
+    margin-left: 0px;
+    margin-bottom: -4px;
+    display:table-cell;
+    
+
+
+}
+.dark{
+    display: none;
+    height: 367px;
+    width: 367px;
+    background: black;
+    opacity: 0.8;
+}
+a{
+    text-decoration: none;
+}
+
+h1{
+
+    margin: 0;
+    padding-top: 40%;
+    text-align: center;
+    font-size: 30px;
+    font-family: Playfair Display;
+    font-weight: bold;
+    color: white;
+    opacity: none;
+}
+p{
+    margin: 0;
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+.load{
+    display: block;
+    margin: 0 auto;
+    padding: 32px 0;
+    width: max-content;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.7;
+    font-weight: 400;
+}
+footer{
+    background: #ebebeb;
+    height: max-content;
+}
+.soc{
+    padding: 32px 0;
+}
+.soc ul{
+    margin: 0 auto;
+    padding-inline-start: 0px;
+    width: max-content; 
+}
+.soc li{
+    display: inline;
+    padding:0 6px;
+}
+.soc img{
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+}
+h2{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    opacity: 0.5;
+    font-weight: 400;
+    line-height: 1.6;
+    word-spacing: 3px;
+    text-align: center;
+}
+
+@media(min-width:0px) and (max-width:320px) and (orientation : portrait){
+.container{
+    width: 300px;
+}
+#logoone {
+    height: 30px;
+}
+#menu ul{
+    display: none;
+}
+#menu {
+    height: 30px;
+    padding: 20px 10px;
+}
+.mobile{
+    display: block;
+    float: right;
+}
+#more{
+    padding-top: 50px;
+}
+
+#navigation li{
+    display: block;
+    padding: 0;
+    width: max-content;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+.item{
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+.dark{
+    width: 300px;
+    height: 300px;
+}
+}
+
+
+@media(min-width:321px) and (max-width:480px) and (orientation : portrait){
+    .container{
+        width: 300px;
+    }
+    #logoone {
+        height: 30px;
+    }
+    #menu ul{
+        display: none;
+    }
+    #menu {
+        height: 30px;
+        padding: 20px 10px;
+    }
+    .mobile{
+        display: block;
+        float: right;
+    }
+    #more{
+        padding-top: 50px;
+    }
+    
+    #navigation li{
+        display: block;
+        padding: 0;
+        width: max-content;
+        margin: 0 auto;
+        padding: 5px 0;
+    }
+    .item{
+        display: block;
+        width: 300px;
+        height: 300px;
+    }
+    .dark{
+        width: 300px;
+        height: 300px;
+    }   
+}
+
+@media(min-width:481px) and (max-width:768px) and (orientation : portrait){
+    .container{
+        width: 470px;
+    }
+    #logoone {
+        height: 30px;
+    }
+    #menu ul{
+        display: none;
+    }
+    #menu {
+        height: 30px;
+        padding: 20px 10px;
+    }
+    .mobile{
+        display: block;
+        float: right;
+    }
+    #more{
+        padding-top: 50px;
+    }
+    
+    #navigation li{
+        display: block;
+        padding: 0;
+        width: max-content;
+        margin: 0 auto;
+        padding: 5px 0;
+    }
+    .item{
+        display: block;
+        width: 470px;
+        height: 470px;
+        margin: 0 auto;
+    }
+    .dark{
+        width: 470px;
+        height: 470px;
+    }   
+}
+
+
+@media(min-width:769px) and (max-width:922px)and(orientation : portrait){
+    .container{
+        width: 700px;
+    }
+    #logoone {
+        height: 30px;
+    }
+    #menu ul{
+        display: none;
+    }
+    #menu {
+        height: 30px;
+        padding: 20px 10px;
+    }
+    .mobile{
+        display: block;
+        float: right;
+    }
+    #more{
+        padding-top: 50px;
+    }
+    
+    #navigation li{
+        display: block;
+        padding: 0;
+        width: max-content;
+        margin: 0 auto;
+        padding: 5px 0;
+    }
+    .item{
+        display: table-cell;
+        width: 230px;
+        height: 230px;
+        margin: 0 auto;
+    }
+    .dark{
+        width: 230px;
+        height: 230px;
+    }     
+}
+
+@media(min-width:923px) and (max-width:1200px)and (orientation : portrait){
+    .container{
+        width: 700px;
+    }
+    #logoone {
+        height: 30px;
+    }
+    #menu ul{
+        display: none;
+    }
+    #menu {
+        height: 30px;
+        padding: 20px 10px;
+    }
+    .mobile{
+        display: block;
+        float: right;
+    }
+    #more{
+        padding-top: 50px;
+    }
+    
+    #navigation li{
+        display: block;
+        padding: 0;
+        width: max-content;
+        margin: 0 auto;
+        padding: 5px 0;
+    }
+    .item{
+        display: table-cell;
+        width: 230px;
+        height: 230px;
+        margin: 0 auto;
+    }
+    .dark{
+        width: 230px;
+        height: 230px;
+    }       
+}
+
+@media(min-width:480px) and (max-width:768px) and (orientation : landscape){
+    .container{
+        width: 470px;
+    }
+    #logoone {
+        height: 30px;
+    }
+    #menu ul{
+        display: none;
+    }
+    #menu {
+        height: 30px;
+        padding: 20px 10px;
+    }
+    .mobile{
+        display: block;
+        float: right;
+    }
+    #more{
+        padding-top: 50px;
+    }
+    
+    #navigation li{
+        display: block;
+        padding: 0;
+        width: max-content;
+        margin: 0 auto;
+        padding: 5px 0;
+    }
+    .item{
+        display: block;
+        width: 470px;
+        height: 470px;
+        margin: 0 auto;
+    }
+    .dark{
+        width: 470px;
+        height: 470px;
+    }   
+}
+@media(min-width:768px) and (max-width:922px) and (orientation : landscape){
+    .container{
+        width: 700px;
+    }
+    #logoone {
+        height: 30px;
+    }
+    #menu ul{
+        display: none;
+    }
+    #menu {
+        height: 30px;
+        padding: 20px 10px;
+    }
+    .mobile{
+        display: block;
+        float: right;
+    }
+    #more{
+        padding-top: 50px;
+    }
+    
+    #navigation li{
+        display: block;
+        padding: 0;
+        width: max-content;
+        margin: 0 auto;
+        padding: 5px 0;
+    }
+    .item{
+        display: table-cell;
+        width: 230px;
+        height: 230px;
+        margin: 0 auto;
+    }
+    .dark{
+        width: 230px;
+        height: 230px;
+    }    
+}
+@media(min-width:923px) and (max-width:1200px) and (orientation : landscape){
+    .container{
+        width: 700px;
+    }
+    #logoone {
+        height: 30px;
+    }
+    #menu ul{
+        display: none;
+    }
+    #menu {
+        height: 30px;
+        padding: 20px 10px;
+    }
+    .mobile{
+        display: block;
+        float: right;
+    }
+    #more{
+        padding-top: 50px;
+    }
+    
+    #navigation li{
+        display: block;
+        padding: 0;
+        width: max-content;
+        margin: 0 auto;
+        padding: 5px 0;
+    }
+    .item{
+        display: table-cell;
+        width: 230px;
+        height: 230px;
+        margin: 0 auto;
+    }
+    .dark{
+        width: 230px;
+        height: 230px;
+    }    
+}
+
+
