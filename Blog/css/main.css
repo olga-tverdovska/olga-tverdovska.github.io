@@ -1,0 +1,564 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+    padding: 0;
+}
+.logo{
+    float: left;
+    margin: 0;
+    width: fit-content;
+}
+.mobile{
+    display: none;
+}
+#logoone{
+    height: 40px;
+}
+#menu{
+    height: 40px;
+    padding: 38px 0;
+}
+#menu ul{
+    margin: 0;
+    float: right;
+    padding-inline-start: 0px;
+    padding: 20px 0;
+}
+#menu li{
+    display: inline;
+    padding-left: 35px;
+}
+#menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.7;
+    font-weight: 400;
+}
+.Portfolio{
+    background: #f6f6f6;
+    height: fit-content;
+    display: block;
+
+}
+#more{
+ background: #f6f6f6;
+ height: 30px;
+ margin: 0 auto;
+ display: block;
+ padding: 0;
+ padding-top: 130px;
+ border: 0;
+ opacity: 0.3;
+ direction: unset;
+ outline: none;
+}
+#more img{
+    height: 30px;
+}
+#navigation{
+    display: none;
+    width: 100%;
+}
+#navigation ul{
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-inline-start: 0px;
+    width: max-content;
+}
+#navigation li{
+    display: inline;
+    padding-left: 38px;
+
+}
+#navigation li a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.7;
+    font-weight: 400;
+}
+.all{
+    padding-top: 70px;
+    width: max-content;
+    margin: 0 auto;
+    padding-bottom: 70px;
+
+}
+.branding{
+    position: relative;
+    width: 800px;
+    background: white;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+.imgbr{
+    position: relative;
+    display: block;
+}
+.br{
+    position: absolute;
+    display: block;
+    background:#252525;
+    width: 90px;
+    height: 32px;
+    border: 0;
+    direction: unset;
+    outline: none;
+    margin-top: -40px;
+    margin-left: 20px;
+}
+.br a{
+text-decoration: none;
+color: white;
+font-size: 13px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-transform: uppercase;
+font-weight: 400;
+}
+h1{
+    font-family: Playfair Display,serif;
+    color: #171717;
+    font-weight: 700;
+    font-size: 24px;
+    padding-inline-start: 25px;
+    margin-bottom: 15px;
+}
+span{
+    color: #171717;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-inline-start: 25px;
+    font-size: 14px;
+}
+p{
+    color: #999999;
+    font-family: Work Sans,sans-serif;
+    padding-inline-start: 25px;
+    font-size: 16px;
+    word-spacing: 5px;
+    line-height: 1.65;
+    padding-inline-end: 25px;
+    
+}
+.nature{
+    position: relative;
+    width: 800px;
+    background: white;
+    padding-bottom: 15px;
+    margin-bottom: 30px;   
+}
+.imgnt{
+    position: relative;
+    display: block;
+}
+.nt{
+    position: absolute;
+    display: block;
+    background:#252525;
+    width: 90px;
+    height: 32px;
+    border: 0;
+    direction: unset;
+    outline: none;
+    margin-top: -40px;
+    margin-left: 20px;
+}
+.nt a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.cities{
+    position: relative;
+    width: 800px;
+    background: white;
+    padding-bottom: 15px;
+    margin-bottom: 30px;   
+}
+.imgst{
+    position: relative;
+    display: block;
+}
+.st{
+    position: absolute;
+    display: block;
+    background:#252525;
+    width: 90px;
+    height: 32px;
+    border: 0;
+    direction: unset;
+    outline: none;
+    margin-top: -40px;
+    margin-left: 20px;
+}
+.st a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.design{
+    position: relative;
+    width: 800px;
+    background: white;
+    padding-bottom: 15px;
+    margin-bottom: 30px;   
+}
+.imgds{
+    position: relative;
+    display: block;
+}
+.ds{
+    position: absolute;
+    display: block;
+    background:#252525;
+    width: 90px;
+    height: 32px;
+    border: 0;
+    direction: unset;
+    outline: none;
+    margin-top: -40px;
+    margin-left: 20px;
+}
+.ds a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.load{
+    display: block;
+    margin: 0 auto;
+    padding: 32px 0;
+    width: max-content;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.7;
+    font-weight: 400;
+}
+footer{
+    background: #ebebeb;
+    height: max-content;
+    padding-bottom: 50px;
+}
+.soc{
+    padding: 32px 0;
+}
+.soc ul{
+    margin: 0 auto;
+    padding-inline-start: 0px;
+    width: max-content; 
+}
+.soc li{
+    display: inline;
+    padding:0 6px;
+}
+.soc img{
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+}
+h2{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    opacity: 0.5;
+    font-weight: 400;
+    line-height: 1.6;
+    word-spacing: 3px;
+    text-align: center;
+}
+@media(min-width:0px) and (max-width:320px) {
+    .container{
+        width: 300px;
+    }
+    #logoone {
+        height: 30px;
+    }
+    #menu ul{
+        display: none;
+    }
+    #menu {
+        height: 30px;
+        padding: 20px 10px;
+    }
+    .mobile{
+        display: block;
+        float: right;
+    }
+    #more{
+        padding-top: 50px;
+    }
+    
+    #navigation li{
+        display: block;
+        padding: 0;
+        width: max-content;
+        margin: 0 auto;
+        padding: 5px 0;
+    }
+    .branding{
+        width: 280px;
+    }
+    .imgbr{
+    width: 280px;  
+    }
+    .nature{
+        width: 280px;
+    }
+    .imgnt{
+    width: 280px;  
+    }
+    .cities{
+        width: 280px;
+    }
+    .imgst{
+    width: 280px;  
+    }
+    .design{
+        width: 280px;
+    }
+    .imgds{
+    width: 280px;  
+    }
+    
+}
+
+@media(min-width:321px) and (max-width:480px){
+    .container{
+        width: 300px;
+    }
+    #logoone {
+        height: 30px;
+    }
+    #menu ul{
+        display: none;
+    }
+    #menu {
+        height: 30px;
+        padding: 20px 10px;
+    }
+    .mobile{
+        display: block;
+        float: right;
+    }
+    #more{
+        padding-top: 50px;
+    }
+    
+    #navigation li{
+        display: block;
+        padding: 0;
+        width: max-content;
+        margin: 0 auto;
+        padding: 5px 0;
+    }
+    .branding{
+        width: 280px;
+    }
+    .imgbr{
+    width: 280px;  
+    }
+    .nature{
+        width: 280px;
+    }
+    .imgnt{
+    width: 280px;  
+    }
+    .cities{
+        width: 280px;
+    }
+    .imgst{
+    width: 280px;  
+    }
+    .design{
+        width: 280px;
+    }
+    .imgds{
+    width: 280px;  
+    }
+
+}
+
+@media(min-width:481px) and (max-width:768px){
+    .container{
+        width: 450px;
+    }
+    #logoone {
+        height: 30px;
+    }
+    #menu ul{
+        display: none;
+    }
+    #menu {
+        height: 30px;
+        padding: 20px 10px;
+    }
+    .mobile{
+        display: block;
+        float: right;
+    }
+    #more{
+        padding-top: 50px;
+    }
+    
+    #navigation li{
+        display: block;
+        padding: 0;
+        width: max-content;
+        margin: 0 auto;
+        padding: 5px 0;
+    }
+    .branding{
+        width: 420px;
+    }
+    .imgbr{
+    width: 420px;  
+    }
+    .nature{
+        width: 420px;
+    }
+    .imgnt{
+        width: 420px ; 
+    }
+    .cities{
+        width: 420px;
+    }
+    .imgst{
+        width: 420px;
+    }
+    .design{
+        width: 420px;
+    }
+    .imgds{
+        width: 420px; 
+    }
+}
+@media(min-width:769px) and (max-width:922px){
+    .container{
+        width: 730px;
+    }
+    #logoone {
+        height: 30px;
+    }
+    #menu ul{
+        display: none;
+    }
+    #menu {
+        height: 30px;
+        padding: 20px 10px;
+    }
+    .mobile{
+        display: block;
+        float: right;
+    }
+    #more{
+        padding-top: 50px;
+    }
+    
+    #navigation li{
+        display: block;
+        padding: 0;
+        width: max-content;
+        margin: 0 auto;
+        padding: 5px 0;
+    }
+    .branding{
+        width: 700px;
+    }
+    .imgbr{
+        width: 700px; 
+    }
+    .nature{
+        width: 700px;
+    }
+    .imgnt{
+        width: 700px;
+    }
+    .cities{
+        width: 700px;
+    }
+    .imgst{
+        width: 700px;
+    }
+    .design{
+        width: 700px;
+    }
+    .imgds{
+        width: 700px; 
+    }  
+}
+@media(min-width:923px) and (max-width:1200px){
+    .container{
+        width: 900px;
+    }
+    #logoone {
+        height: 40px;
+    }
+    #menu ul{
+        display: block;
+    }
+    #menu {
+        height: 40px;
+        padding: 20px 10px;
+    }
+    .mobile{
+        display: none;
+        float: right;
+    }
+    #more{
+        padding-top: 50px;
+    }
+    
+    #navigation li{
+        display: block;
+        padding: 0;
+        width: max-content;
+        margin: 0 auto;
+        padding: 5px 0;
+    }
+    .branding{
+        width: 700px;
+    }
+    .imgbr{
+        width: 700px; 
+    }
+    .nature{
+        width: 700px;
+    }
+    .imgnt{
+        width: 700px;
+    }
+    .cities{
+        width: 700px;
+    }
+    .imgst{
+        width: 700px;
+    }
+    .design{
+        width: 700px;
+    }
+    .imgds{
+        width: 700px; 
+    }    
+}
